@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "It Begins"
+date:   2014-01-19 14:52:13
+categories: Blog
+---
+
+Here we go, kid tested not mother approved, well maybe it is, but I'm not too sure. Yadda skippity do
+
+Check out the [WWE Network][wwe] for more info on wrestling and viewing it.
+
+[wwe]:    http://www.wwe.com/wwenetwork
