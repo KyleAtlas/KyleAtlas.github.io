@@ -1,51 +1,13 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-<title>Talk Like Kyle</title>
-<meta charset='utf-8'>
-<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-<link href="./stylesheet.css" rel="stylesheet" />
-</head>
-<body id='documentation'>
-<div class='inner'>
-<header id="primary">
-<h1>Talk Like Kyle</h1>
-</header>
+---
+layout: default
+title: Your New Jekyll Site
+---
 
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-<div id="container">
-    <div class="inner">
-
-<div id='sidebar'>
-<nav>
-<ul>
-<strong>Useful Info</strong>
-<ul class='expanded'>
-<li><a href="." class="">This</a></li>
-<li><a href="." class="">is</a></li>
-<li><a href="." class="">a</a></li>
-<li><a href="." class="">sidebar</a></li>
-</ul>
-</ul>
-<ul>
-<strong>More Useful Info</strong>
-<ul class='expanded'>
-<li><a href="." class="">This too</a></li>
-</ul>
-</ul>
-</li>
-</div>
-
-<div id='main'>
-<h1><center>You are</h1>
-<h2><center>here</h2>
-<p>The under construction site of Talk Like Kyle thank you for coming!
-If you would like to help out my project please see the rudimentary code quickly posted at <a href="https://github.com/KyleAtlas/KyleAtlas.github.io">GitHub</a> or e-mail me at <a href="mailto:Kyle.Atlas@linuxmail.com?Subject=TalkLikeKyle" target="_top">
-Kyle.Atlas@linuxmail.org</a></p>
-
-
-
-
-</div>
-</body>
-</html>
