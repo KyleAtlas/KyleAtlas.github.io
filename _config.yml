@@ -1,3 +1,4 @@
 name: Talk Like Kyle
 markdown: redcarpet
 pygments: true
+baseurl: ..\
